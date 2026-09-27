@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org" >
+
+<suite name="Regression Suite">
+
+    <test name="Authentication">
+        <classes>
+            <class name="Auth.LoginTest"/>
+            <class name="Auth.RegisterTest"/>
+        </classes>
+    </test>
+
+    <test name="payment">
+        <classes>
+            <class name="Payment.CheckoutTest"/>
+            <class name="Payment.AddToCartTest"/>
+        </classes>
+    </test>
+
+</suite>
